@@ -1,0 +1,46 @@
+body, html {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    font-size: 70px;
+    font-weight: 100;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main .container {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+.city{
+    font-size: 62px;
+    text-align: center;
+}
+.temp{
+    font-size:48px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.temp .unit{
+    color: #F16C6C;
+    cursor: pointer;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon .wi{
+    font-size: 100px;
+}
