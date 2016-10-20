@@ -1,6 +1,7 @@
 /**
  * Created by tiyalla on 10/11/2016.
  */
+/** fetches forecast data from openweather api**/
 angular.module("myApp").factory('forecast', ['$http', function ($http) {
     var obj ={};
 
